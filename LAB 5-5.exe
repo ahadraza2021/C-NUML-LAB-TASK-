@@ -1,0 +1,50 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int phy,che,comp,bio,math;
+	int avg;
+	int sum;
+	cout<<"enter your mark of phyics subject:";
+	cin>>phy;
+	cout<<"enter your mark of chemistry subject:";
+	cin>>che;
+	cout<<"enter your mark of computer subject:";
+	cin>>comp;
+	cout<<"enter your mark of biology subject:";
+	cin>>bio;
+	cout<<"enter your mark of mathmatics subject:";
+	cin>>math;
+	//sum=phy+che+comp+bio+math;
+	avg=sum/5;
+	if(avg>=90)
+	{
+		cout<<"your grade is A:";
+	}
+	else if(avg>=80)
+	{
+		cout<<"your grade is B:";
+	}
+	else if(avg>=70)
+	{
+		cout<<"your grade is C:";
+	}
+	else if(avg>=60)
+	{
+		cout<<"your grade is D:";
+	}
+	else if(avg>=40)
+	{
+		cout<<"your grade is E:";
+	}
+	else if(avg<=40)
+	{
+		cout<<"your grade is F:";
+	}
+	else
+	{
+		cout<<"good bye:";
+	}
+	return(0)
+	
+}

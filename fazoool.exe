@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a;
+	int b;
+	int divide;
+	int mod;
+	cout<<"enter the value of a:";
+	cin>>a;
+	cout<<"enter the value of b:";
+	cin>>b;
+	divide=a/b;
+	mod=a%b;
+	cout<<"divide:"<<divide<<endl;
+	cout<<"mod;"<<mod<<endl;
+	return(0);
+}
