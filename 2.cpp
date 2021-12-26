@@ -5,13 +5,13 @@ int main()
 	int n;
 	cout<<"enter your number:";
 	cin>>n;
-	if(n>=10)
+	if(n%2==0)
 	{
-		cout<<"square of number:"<<n*n<<endl;
+		cout<<"number is even:";
 	}
 	else
 	{
-		cout<<"cube of number:"<<n*n*n<<endl;
+		cout<<"number is odd:";
 	}
 	return(0);
 }

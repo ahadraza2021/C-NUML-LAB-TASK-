@@ -12,7 +12,7 @@ int main()
 	{
 		arr[j]=copy[j];
 	}
-	cout<<"the actual array is:"<<arr[i]<<endl;
+	cout<<"the actual array is:"<<arr[j]<<endl;
 	cout<<"the copy of the array is:"<<copy[j]<<endl;
 	return 0;
 }

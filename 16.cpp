@@ -3,7 +3,7 @@ using namespace std;
 int main()
 {
 	int arr[5];
-	int search=0;
+	int search;
 	cout<<"enter your values:"<<endl;
 	for(int i=0;i<=5;i++)
 	{
