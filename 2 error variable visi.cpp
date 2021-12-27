@@ -10,9 +10,12 @@ int main()
 	
 	
 	//NUML UNIVERSITY
-	for(int i=0;i<=10;i++)
-	{
-		cout<<i*i<<endl;
+//	int i=0;
+//	for(;i<=10;i++)
+	for(int j=0; j<5; j++)
+	{ 
 	}
+	cout<<"\nValue of j:"<<j;		
 	return 0;
-}
+	}
+
