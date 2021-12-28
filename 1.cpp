@@ -1,18 +1,23 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
-int main()
-{
-	// for loop
-	//for(initial,condition,incre/decre)
-	/*{
-		body loop
-	}*/
-	
-	
-	//NUML UNIVERSITY
-	for(int i=0;i<=10;i++)
+int main() {
+    int year;
+    cout << "Enter a year: ";
+    cin >> year;
+    if (year % 4 == 0) 
 	{
-		cout<<i*i<<endl;
-	}
-	return 0;
+        if (year % 100 == 0) 
+		{
+            if (year % 400 == 0)
+                cout << year << " is a leap year.";
+            else
+                cout << year << " is not a leap year.";
+        }
+        else
+            cout << year << " is a leap year.";
+    }
+    else
+        cout << year << " is not a leap year.";
+
+    return 0;
 }
